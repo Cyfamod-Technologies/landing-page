@@ -2,7 +2,7 @@
 *
 * -----------------------------------------------------------------------------
 *
-* Template : Echooling - Online Education HTML Template
+* Template : Eschooling - Online Education HTML Template
 * Author : reacthemes
 * Author URI : https://reactheme.com/
 
@@ -60,10 +60,19 @@
     wow.init();
   }
 
+  // Counter animation - triggers only once when scrolled into view
+  // Fixed to prevent resetting to zero on scroll
   if ($('.counter').length) {
-    $('.counter').counterUp({
-      delay: 10,
-      time: 2000
+    $('.counter').each(function() {
+      var $this = $(this);
+      // Only initialize if not already animated
+      if (!$this.data('counterup-initialized')) {
+        $this.data('counterup-initialized', true);
+        $this.counterUp({
+          delay: 10,
+          time: 2000
+        });
+      }
     });
   }
 
