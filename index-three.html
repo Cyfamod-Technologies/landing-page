@@ -1,727 +1,1534 @@
 <!DOCTYPE html>
 <html lang="zxx">
-    <head>
-        <!--================= Meta tag =================-->
-        <meta charset="utf-8">
-        <title>Home | Echooling - Online Education HTML Template</title>
-        <meta name="description" content="">
-        <!--================= Responsive Tag =================-->
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--================= Favicon =================-->
-        <link rel="apple-touch-icon" href="assets/images/fav.png">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">        
-        <!--================= Bootstrap V5 css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-        <!--================= Menus css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/menus.css">               
-        <!--================= Animate css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-        <!--================= Owl Carousel css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
-        <!--================= Elegant icon css  =================-->
-        <link rel="stylesheet" type="text/css" href="assets/fonts/elegant-icon.css">
-        <!--================= Magnific Popup css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
-        <!--================= Animations css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/animations.css">  
-        <!--================= style css =================-->
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <!--================= Custom Spacing css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/custom-spacing.css">
-        <!--================= Responsive css =================-->
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    </head>
-    <body> 
-        <!--================= Preloader Section Start Here =================-->        
-        <div id="react__preloader">
-            <div id="react__circle_loader"></div>
-            <div class="react__loader_logo"><img src="assets/images/preload.png" alt="Preload"></div>
-        </div>        
-        <!--================= Preloader Section End Here =================-->
 
-        <!--================= Header Section Start Here =================-->
-        <header id="react-header" class="react-header react-header-three">
-            <div class="menu-part">
-                <div class="container">
-                    <!--================= Menu Start Here =================-->
-                    <div class="react-main-menu">
-                        <nav>
-                            <!--================= Menu Toggle btn =================-->
-                            <div class="menu-toggle">
-                                <div class="logo"><a href="index.html" class="logo-text"> <img src="assets/images/logo2.png" alt="logo"> </a></div>
-                                <button type="button" id="menu-btn">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <!--================= Menu Structure =================--> 
-                            <div class="react-inner-menus">
-                                <div class="cate-part">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-                                    <ul class="react-category-menu">
-                                        <li><a href="index-three.html#">Categories <i class="arrow_carrot-down"></i></a> 
-                                            <ul>
-                                                <li><a href="index-three.html#">English Book</a></li>
-                                                <li><a href="index-three.html#">Math Book</a></li>
-                                                <li><a href="index-three.html#">Story Book</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul id="backmenu" class="react-menus react-sub-shadow">
-                                    <li> <a href="index-three.html#">Home</a>
+<head>
+    <!--================= Meta tag =================-->
+    <meta charset="utf-8">
+    <title>Home | Cyfamod School Management System - Open Source School Platform</title>
+    <meta name="description" content="">
+    <!--================= Responsive Tag =================-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--================= Favicon =================-->
+    <link rel="apple-touch-icon" href="assets/images/fav.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <!--================= Bootstrap V5 css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!--================= Menus css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/menus.css">
+    <!--================= Animate css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!--================= Owl Carousel css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <!--================= Elegant icon css  =================-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/elegant-icon.css">
+    <!--================= Magnific Popup css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+    <!--================= Animations css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/animations.css">
+    <!--================= style css =================-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--================= Custom Spacing css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-spacing.css">
+    <!--================= Responsive css =================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <style>
+        .react-header.react-header-three .cate-part .react-category-menu li ul li.has-sub-sub {
+            position: relative;
+        }
+
+        .react-header.react-header-three .cate-part .react-category-menu li ul li.has-sub-sub>ul {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            width: 172px;
+            transform: scaleY(0);
+            transition: all .4s ease-in-out 0s;
+            transform-origin: 0 0 0;
+            opacity: 0;
+            visibility: hidden;
+            padding: 20px 20px 23px;
+            background: #fff;
+            border-radius: 0 4px 4px 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .react-header.react-header-three .cate-part .react-category-menu li ul li.has-sub-sub:hover>ul {
+            transform: scaleY(1);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .resource-row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .resource-row .col-md-4 {
+            display: flex;
+            margin-bottom: 24px;
+        }
+
+        .react_featured_online .item__inner {
+            width: 100%;
+        }
+
+        .react_featured_online .item__inner .react-content h3 {
+            color: #0F1216;
+        }
+
+        /* Section background for visual demarcation */
+        .bg-grey-section {
+            background-color: #f8f9fa;
+        }
+
+        /* Footer alignment fixes */
+        .footer-widget ul {
+            text-align: left;
+        }
+
+        .footer-address {
+            text-align: left;
+        }
+
+        /* Pricing section font uniformity */
+        .price-card .plan-type,
+        .price-card .price,
+        .price-card .validity,
+        .price-card .item .course {
+            font-size: 16px;
+        }
+
+        .price-card .price {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .price-card .plan-type {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .price-card .validity {
+            font-size: 14px;
+        }
+
+        /* Pricing button - EXACT MATCH TO GITHUB STAR BUTTON */
+        .price-btn {
+            width: 100%;
+            display: block;
+            padding: 0;
+            margin-top: 20px;
+            background: transparent;
+            border: none;
+        }
+
+        .price-btn a {
+            display: block;
+            width: 100%;
+            background: #1A73E8;
+            color: #fff !important;
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            text-align: center;
+            border: none;
+            box-shadow: 0 4px 15px rgba(26, 115, 232, 0.3);
+        }
+
+        .price-btn a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(26, 115, 232, 0.4);
+            background: #1557b0;
+            color: #fff;
+        }
+
+        /* Pricing card hover effects */
+        .price-card {
+            transition: all 0.3s ease;
+        }
+
+        .price-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Custom/Enterprise pricing - smaller font */
+        .price-card .price {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .price-card .contents .price {
+            font-size: 36px;
+        }
+
+        /* FAQ question alignment */
+        .question-title {
+            text-align: left;
+        }
+
+        /* Documentation & Community section - Blue link buttons */
+        .react_featured_online .item__inner .react-content h3 a {
+            color: #1A73E8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .react_featured_online .item__inner .react-content h3 a:hover {
+            color: #1557b0;
+            transform: translateX(5px);
+        }
+
+        /* Video tab navigation - BLUE TEXT for consistency */
+        .react-tab-gird .nav-tabs .nav-link {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .react-tab-gird .nav-tabs .nav-link .icon,
+        .react-tab-gird .nav-tabs .nav-link .text {
+            color: #1A73E8;
+        }
+
+        .react-tab-gird .nav-tabs .nav-link:hover {
+            background: rgba(26, 115, 232, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .react-tab-gird .nav-tabs .nav-link.active {
+            background: #1A73E8 !important;
+        }
+
+        .react-tab-gird .nav-tabs .nav-link.active .icon,
+        .react-tab-gird .nav-tabs .nav-link.active .text {
+            color: #fff !important;
+        }
+
+        /* Feature cards hover effects - "Everything You Need" section */
+        .react_populars_topics .item__inner {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .react_populars_topics .item__inner:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .react_populars_topics .item__inner:hover .react-title a {
+            color: #1A73E8;
+        }
+
+        /* All primary buttons consistent - Using "View on GitHub" as template */
+        .about__btn a,
+        .hero4-btn {
+            background: #1A73E8 !important;
+            color: #fff !important;
+            padding: 15px 35px;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+            border: none;
+        }
+
+        .about__btn a:hover,
+        .hero4-btn:hover {
+            background: #1557b0 !important;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+        }
+
+        /* Watch Demo Video button */
+        .event__videos {
+            color: #1A73E8 !important;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .event__videos:hover {
+            color: #1557b0 !important;
+        }
+
+        .event__videos i {
+            background: #1A73E8;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .event__videos:hover i {
+            background: #1557b0;
+            transform: scale(1.1);
+        }
+
+        /* GitHub Star CTA Section - With Container/Border */
+        .github-star-cta {
+            background: #fff;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            border-top: 1px solid #e2e8f0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .github-star-cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(26, 115, 232, 0.03) 0%, rgba(21, 87, 176, 0.03) 100%);
+            z-index: 0;
+        }
+
+        .github-star-cta .container {
+            position: relative;
+            z-index: 1;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .github-star-cta h3 {
+            color: #1A73E8;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .github-star-cta p {
+            color: #64748b;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .github-star-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #1A73E8;
+            color: #fff;
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(26, 115, 232, 0.3);
+        }
+
+        .github-star-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(26, 115, 232, 0.4);
+            background: #1557b0;
+            color: #fff;
+        }
+
+        .github-star-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Footer content left alignment */
+        .footer-widget {
+            text-align: left;
+        }
+
+        .footer-logo {
+            text-align: left;
+        }
+
+        .footer-subtitle {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!--================= Preloader Section Start Here =================-->
+    <div id="react__preloader">
+        <div id="react__circle_loader"></div>
+        <div class="react__loader_logo"><img src="assets/images/preload.png" alt="Preload"></div>
+    </div>
+    <!--================= Preloader Section End Here =================-->
+
+    <!--================= Header Section Start Here =================-->
+    <header id="react-header" class="react-header react-header-three">
+        <div class="menu-part">
+            <div class="container">
+                <!--================= Menu Start Here =================-->
+                <div class="react-main-menu">
+                    <nav>
+                        <!--================= Menu Toggle btn =================-->
+                        <div class="menu-toggle">
+                            <div class="logo"><a href="index-three.html#" class="logo-text"> <img
+                                        src="assets/images/logo2.png" alt="logo"> </a></div>
+                            <button type="button" id="menu-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!--================= Menu Structure =================-->
+                        <div class="react-inner-menus">
+                            <div class="cate-part">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-more-vertical">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-more-vertical">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-more-vertical">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                </svg>
+                                <ul class="react-category-menu">
+                                    <li><a href="index-three.html#">Get Started <i class="arrow_carrot-down"></i></a>
                                         <ul>
-                                            <li> <a href="index.html">Home One</a></li>
-                                            <li> <a href="index-two.html">Home Two</a></li>
-                                            <li> <a href="index-three.html">Home Three</a></li>
-                                            <li> <a href="index-four.html">Home Four</a></li>
-                                            <li> <a href="index-five.html">Home Five</a></li>
-                                            <li> <a href="index-six.html">Home Six</a></li>
-                                            <li> <a href="index-seven.html">Home Seven</a></li>
-                                        </ul>
-                                    </li>
-                                    <li> <a href="index-three.html#">Pages</a>
-                                        <ul>
-                                            <li> <a href="about.html">About</a></li> 
-                                            <li> <a href="instructors.html">Instructor</a></li> 
-                                            <li> <a href="profile.html">Profile</a></li> 
-                                            <li> <a href="events.html">Events</a>
+                                            <li> <a href="about.html">About</a></li>
+                                            <li class="has-sub-sub"> <a href="#">Demo Login</a>
                                                 <ul>
-                                                    <li><a href="events.html">Events</a></li>
-                                                    <li><a href="events-right-sidebar.html">Events Sidebar</a></li>
-                                                    <li><a href="events-single.html">Events Single</a></li>
+                                                    <li><a href="https://lynxglobal.com.ng/login">Admin Demo Login</a>
+                                                    </li>
+                                                    <li><a href="https://lynxglobal.com.ng/login">Staff Demo Login</a>
+                                                    </li>
+                                                    <li><a href="https://lynxglobal.com.ng/student-login">Student Demo
+                                                            Login</a>
+                                                    </li>
                                                 </ul>
-                                            </li> 
-                                            <li> <a href="login.html">Login</a></li> 
-                                            <li> <a href="signup.html">Sign Up</a></li> 
-                                        </ul>
-                                    </li>                                                                   
-                                    <li> <a href="coureses-grid.html">Courses</a>
-                                        <ul>
-                                            <li><a href="coureses-grid.html">Courses</a></li>                                                
-                                            <li><a href="coureses-right-sidebar.html">Right Sidebar</a></li>
-                                            <li><a href="coureses-list.html">Courses List</a></li>
-                                            <li><a href="coureses-single.html">Courses Single</a></li>                                    
+                                            </li>
+                                            <li> <a href="https://lynxglobal.com.ng/login">Login</a></li>
+                                            <li> <a href="https://lynxglobal.com.ng/register">Register</a></li>
                                         </ul>
                                     </li>
-                                    <li> <a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li> <a href="contact.html">Contact</a></li>
-                                </ul>                                
-                                <div class="searchbar-part">                                                                      
-                                    <form class="search-form">
-                                        <input type="text" class="form-input" placeholder="Search Course">
-                                        <button type="submit" class="form-button">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                    <!--=================  Back Menu End Here  =================-->
-                </div>
-            </div>
-        </header>
-        <!--================= Header Section End Here =================-->
 
-        <!--================= Wrapper Start Here =================-->
-        <div class="react-wrapper">
-            <div class="react-wrapper-inner">
-                <!--================= Banner Section End  Here =================-->
-                <div class="hero4__area pt-160 pb-150 md-pt-90">
-                    <div class="hero4__shape">
-                        <img class="hero4__shape-1" src="assets/images/hero/04.png" alt="Banner shape image">
-                        <img class="hero4__shape-2" src="assets/images/hero/05.png" alt="Banner shape image">
-                        <img class="hero4__shape-3" src="assets/images/hero/shape_03.png" alt="Banner shape image">
-                        <img class="hero4__shape-4" src="assets/images/hero/shape_04.png" alt="Banner shape image">
-                        <img class="hero4__shape-5" src="assets/images/hero/shape_05.png" alt="Banner shape image">
-                    </div>
-                    <div class="container hero4__width">
-                        <div class="row">
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                <div class="hero4__content">
-                                    <h1 class="hero4__title">Your Next <br> Online Archive</h1>
-                                    <p class="hero4__paragraph">Online learning you can access anywhere easily.</p>                                    
-                                    <div class="event__video-btn--plays">
-                                        <a href="coureses-single.html" class="hero4-btn">Get Started</a>
-                                        <a href="https://www.youtube.com/watch?v=e5Hc2B50Z7c" class="event__videos custom-popup">
-                                            <i class="arrow_triangle-right"></i>
-                                            <em>Watch video</em>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                                <div class="hero4__image">
-                                    <img class="hero4__image-1" src="assets/images/hero/02.png"
-                                        alt="The girl are pointing to the left side">
-                                    <img class="hero4__image-2" src="assets/images/hero/03.png"
-                                        alt="The boy are grabbing some books">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= Banner Section End  Here =================-->
 
-                <!--=================  Popular Topics Section Start Here ================= -->
-                <div class="react_populars_topics react_populars_topics2 pt---100 pb---100">
-                    <div class="container"> 
-                        <div class="react__title__section react__title__section-all">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <h6>Echooling available courses</h6>
-                                    <h2 class="react__tittle"> Online Coaching Lessons For <br>Remote Learning </h2>
-                                </div>                                
+                                </ul>
                             </div>
-                            
-                        </div>                       
-                        <div class="row pt---30">
-                            <div class="col-md-4">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/topics/icon.svg" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h3 class="react-title"><a href="coureses-grid.html">Accredited Campus</a></h3>
-                                        <p>Nulla porttitor accumsan tincidunt. vamus <br>magna justo, lacinia eget consectetur sed, <br>convallis at tellus.</p>
-                                        <a href="index-three.html#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/topics/icon2.svg" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h3 class="react-title"><a href="coureses-grid.html">Best Quality Graduate</a></h3>
-                                        <p>Nulla porttitor accumsan tincidunt. vamus <br>magna justo, lacinia eget consectetur sed, <br>convallis at tellus.</p>
-                                        <a href="index-three.html#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/topics/icon3.svg" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h3 class="react-title"><a href="coureses-grid.html">Inspiring Student Life</a></h3>
-                                        <p>Nulla porttitor accumsan tincidunt. vamus <br>magna justo, lacinia eget consectetur sed, <br>convallis at tellus.</p>
-                                        <a href="index-three.html#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-                                    </div>                                    
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>
-                <!--=================  Popular Topics Section End Here ================= -->
+                            <ul id="backmenu" class="react-menus react-sub-shadow">
+                                <li> <a href="index-three.html#">Home</a>
 
-                <!--=================  About Section Start Here ================= -->
-                <div class="about__area about2__area about3__area p-relative pb---60">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="about__image">
-                                    <img class="react__shape__1" src="assets/images/about/shape_02.png" alt="Shape Image">
-                                    <img src="assets/images/about/ab3.png" alt="About">
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="about__content">
-                                    <h6>About Us</h6>
-                                    <h2 class="about__title">The quickest and <br>Effected way for Learing</h2>
-                                    <p class="about__paragraph">Why I say old chap that is spiffing in my flat such a fibber<br> mufty mush, porkies barney pukka only a quid a what a<br> load of rubbish good time.</p>
-                                    <ul>
-                                        <li><i class="icon_check"></i> Access more then 100K online courses</li>
-                                        <li><i class="icon_check"></i> Upskill your organization. </li>
-                                    </ul>
-                                    <div class="about__btn">
-                                        <a href="about.html"> Read More </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--================= About Section End Here ================= -->
-
-                <!--=================  Featured Section Start Here ================= -->
-                <div class="react_featured_online pt---100 pb---110">
-                    <div class="container"> 
-                        <div class="react__title__section-all">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <h6>Education for Everyone</h6>
-                                    <h2 class="react__tittle">Featured Online Courses</h2>
-                                </div>                                
-                            </div>                            
-                        </div>                       
-                        <div class="row pt---30">
-                            <div class="col-md-6">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/featured/1.png" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h5 class="price">$76.00</h5>
-                                        <h3><a href="index-three.html#">The Most Complete Design <br> Thinking Course On The Market.</a></h3>
-                                        <ul class="react-lessones">
-                                            <li class="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 66 Lessones</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 49 Students </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div>    
-                            <div class="col-md-6">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/featured/2.png" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h5 class="price">$95.00</h5>
-                                        <h3><a href="index-three.html#">Learn Essentials of User Interface <br> Design in Figma.</a></h3>
-                                        <ul class="react-lessones">
-                                            <li class="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 46 Lessones</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 32 Students </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div> 
-                            <div class="col-md-6">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/featured/3.png" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h5 class="price">$49.00</h5>
-                                        <h3><a href="index-three.html#">Consulting Approach to Problem <br>Solving Working</a></h3>
-                                        <ul class="react-lessones">
-                                            <li class="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 96 Lessones</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 39 Students </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div> 
-                            <div class="col-md-6">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/featured/4.png" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h5 class="price">$99.00</h5>
-                                        <h3><a href="index-three.html#">Find Music Category inside <br>your Soula</a></h3>
-                                        <ul class="react-lessones">
-                                            <li class="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 16 Lessones</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 18 Students </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div> 
-                            <div class="col-md-6">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/featured/5.png" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h5 class="price">$36.00</h5>
-                                        <h3><a href="index-three.html#">Business Approach to Problem<br> Solving Banner</a></h3>
-                                        <ul class="react-lessones">
-                                            <li class="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 26 Lessones</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 39 Students </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div> 
-                            <div class="col-md-6">
-                                <div class="item__inner">                                    
-                                    <div class="icon">
-                                        <img src="assets/images/featured/6.png" alt="Icon image">
-                                    </div>
-                                    <div class="react-content">
-                                        <h5 class="price">$85.00</h5>
-                                        <h3><a href="index-three.html#">Successful Negotiation: Master <br> Your Negotiating Skills</a></h3>
-                                        <ul class="react-lessones">
-                                            <li class="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> 26 Lessones</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> 19 Students </li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                            </div>                        
-                        </div>
-                        <div class="text-center">
-                            <a href="index-three.html#" class="border-btns"> View All Course <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-                        </div>
-                    </div>
-                </div>
-                <!--=================  Featured Section End Here ================= -->
-
-                <!--=================  Video Section Start Here ================= -->              
-                <div class="high_quality-section pt---110 pb---120">
-                    <div class="container">
-                        <div class="react__title__section-all">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <h6>Live Class</h6>
-                                    <h2 class="react__tittle">High quality video,audio <br>& live class</h2>
-                                </div>                                
-                            </div>                            
-                        </div>
-                        <div class="react-tab-gird">
-                            <div class="tab-content text-center">
-                                <img class="shape__1" src="assets/images/tab/shape_01.png" alt="image">
-                                <img class="shape__2" src="assets/images/tab/shape_02.png" alt="image">
-                                <img class="shape__3" src="assets/images/tab/shape_03.png" alt="image">
-                                <div class="tab-pane active" id="home">
-                                    <iframe width="970" height="576" src="https://www.youtube.com/embed/e5Hc2B50Z7c" title="YouTube video player" allow="accelerometer"></iframe>
-                                </div>
-                                <div class="tab-pane" id="profile">
-                                    <iframe width="970" height="576" src="https://www.youtube.com/embed/e5Hc2B50Z7c" title="YouTube video player" allow="accelerometer"></iframe>
-                                </div>
-                                <div class="tab-pane" id="messages">
-                                    <iframe width="970" height="576" src="https://www.youtube.com/embed/e5Hc2B50Z7c" title="YouTube video player" allow="accelerometer"></iframe>
-                                </div>
-                                <div class="tab-pane" id="settings">
-                                    <iframe width="970" height="576" src="https://www.youtube.com/embed/e5Hc2B50Z7c" title="YouTube video player" allow="accelerometer"></iframe>
-                                </div>
-                            </div>
-                            <ul class="nav nav-tabs" id="myTab">
-                                <li class="nav-item active">
-                                    <a class="nav-link active" href="index-three.html#home" aria-controls="home" data-bs-toggle="tab">
-                                        <em class="icon"><img src="assets/images/tab/4.png" alt="image"></em>
-                                        <em class="text">Audio Classes</em>
-                                    </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index-three.html#profile" aria-controls="profile" data-bs-toggle="tab">
-                                        <em class="icon"><img src="assets/images/tab/2.png" alt="image"></em>
-                                        <em class="text">Live Classes</em>
-                                    </a>
+
+                                <li> <a href="index-three.html#">Pricing</a>
+
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index-three.html#messages" aria-controls="messages" data-bs-toggle="tab">
-                                        <em class="icon"><img src="assets/images/tab/1.png" alt="image"></em>
-                                        <em class="text">Recorded Class</em>
-                                    </a>
+                                <li> <a href="index-three.html#">Blog</a>
+
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index-three.html#settings" aria-controls="settings" data-bs-toggle="tab">
-                                        <em class="icon"><img src="assets/images/tab/3.png" alt="image"></em>
-                                        <em class="text">Educator Support</em>
-                                    </a>
-                                </li>
+                                <li> <a href="index-three.html#">Docs</a></li>
                             </ul>
+                            <div class="searchbar-part">
+                                <form class="search-form">
+                                    <input type="text" class="form-input" placeholder="Search Course">
+                                    <button type="submit" class="form-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-search">
+                                            <circle cx="11" cy="11" r="8"></circle>
+                                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
-                <!--=================  Video Section End Here ================= --> 
-
-                <!--=================  Satisfaction Section Start Here ================= -->
-                <div class="student_satisfaction-section pt---100 pb---120">
-                    <div class="container"> 
-                        <div class="react__title__section-all pb---30">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <h6>Student Satisfaction</h6>
-                                    <h2 class="react__tittle">Student Community <br>Feedback</h2>
-                                </div>                                
-                            </div>                            
-                        </div>                       
-                        <div class="feedreact-slider owl-carousel">
-                            <div class="event__card">
-                                <div class="event__card--content">
-                                    <div class="event__card--content-area">
-                                        <div class="testimonial__ratings">
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star_alt"></em>
-                                            <span> (14 Reviews) </span>
-                                        </div>
-                                        <div class="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
-                                    </div>
-                                    <img class="poly" src="assets/images/testimonial/poly.png" alt="image">
-                                </div>
-                                <div class="author-sec">
-                                    <div class="icon">
-                                        <img src="assets/images/testimonial/1.png" alt="image">
-                                    </div>
-                                    <div class="text">
-                                        <h4>Pelican Steve</h4>
-                                        <p>Student</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="event__card">
-                                <div class="event__card--content">
-                                    <div class="event__card--content-area">
-                                        <div class="testimonial__ratings">
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star_alt"></em>
-                                            <span> (18 Reviews) </span>
-                                        </div>
-                                        <div class="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
-                                    </div>
-                                    <img class="poly" src="assets/images/testimonial/poly.png" alt="image">
-                                </div>
-                                <div class="author-sec">
-                                    <div class="icon">
-                                        <img src="assets/images/testimonial/2.png" alt="image">
-                                    </div>
-                                    <div class="text">
-                                        <h4>Chase Kroll</h4>
-                                        <p>IT Specialist</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="event__card">
-                                <div class="event__card--content">
-                                    <div class="event__card--content-area">
-                                        <div class="testimonial__ratings">
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star_alt"></em>
-                                            <span> (26 Reviews) </span>
-                                        </div>
-                                        <div class="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
-                                    </div>
-                                    <img class="poly" src="assets/images/testimonial/poly.png" alt="image">
-                                </div>
-                                <div class="author-sec">
-                                    <div class="icon">
-                                        <img src="assets/images/testimonial/3.png" alt="image">
-                                    </div>
-                                    <div class="text">
-                                        <h4>Jackson Pot</h4>
-                                        <p>Teacher</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="event__card">
-                                <div class="event__card--content">
-                                    <div class="event__card--content-area">
-                                        <div class="testimonial__ratings">
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star"></em>
-                                            <em class="icon_star_alt"></em>
-                                            <span> (14 Reviews) </span>
-                                        </div>
-                                        <div class="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
-                                    </div>
-                                    <img class="poly" src="assets/images/testimonial/poly.png" alt="image">
-                                </div>
-                                <div class="author-sec">
-                                    <div class="icon">
-                                        <img src="assets/images/testimonial/1.png" alt="image">
-                                    </div>
-                                    <div class="text">
-                                        <h4>Pelican Steve</h4>
-                                        <p>Student</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="count__area2 pb---100">
-                        <div class="container">                            
-                            <ul class="row">
-                                <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                    <div class="count__content">
-                                        <div class="icon">
-                                            <img src="assets/images/counter/1.png" alt="image">
-                                        </div>
-                                        <div class="text">
-                                            <span class="count__content-title counter">28</span><em>k</em>
-                                            <p class="count__content">Foreign followers</p> 
-                                        </div>                                           
-                                    </div>
-                                </li>
-                                <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                    <div class="count__content">
-                                        <div class="icon">
-                                            <img src="assets/images/counter/2.png" alt="image">
-                                        </div>
-                                        <div class="text">
-                                            <span class="count__content-title counter">10</span><em>k</em>
-                                            <p class="count__content">Classes complete</p> 
-                                        </div>                                           
-                                    </div>
-                                </li>
-                                <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                    <div class="count__content">
-                                        <div class="icon">
-                                            <img src="assets/images/counter/3.png" alt="image">
-                                        </div>
-                                        <div class="text">
-                                            <span class="count__content-title counter">208</span><em>k</em>
-                                            <p class="count__content"> Students enrolled</p>  
-                                        </div>                                          
-                                    </div>
-                                </li>
-                                <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                                    <div class="count__content">
-                                        <div class="icon">
-                                            <img src="assets/images/counter/4.png" alt="image">
-                                        </div>
-                                        <div class="text">
-                                            <span class="count__content-title counter">54</span><em>k</em>
-                                            <p class="count__content">Certified teachers</p> 
-                                        </div>                                           
-                                    </div>
-                                </li>
-                            </ul>                                
-                        </div>
-                    </div>
-                </div>
-                <!--=================  Satisfaction Section End Here ================= -->
+                <!--=================  Back Menu End Here  =================-->
             </div>
         </div>
-        <!--================= Wrapper End Here =================-->
+    </header>
+    <!--================= Header Section End Here =================-->
 
-        <!--================= Footer Section Start Here =================-->
-        <footer id="react-footer" class="react-footer react-footer-two pt---120">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="footer-top-cta">
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <h4>Free Online Course</h4>
-                                <h3>Ready to dive in? <br> Start your free Course today.</h3>
+    <!--================= Wrapper Start Here =================-->
+    <div class="react-wrapper">
+        <div class="react-wrapper-inner">
+            <!--================= Banner Section End  Here =================-->
+            <div class="hero4__area pt-160 pb-150 md-pt-90">
+                <div class="hero4__shape">
+                    <img class="hero4__shape-1" src="assets/images/hero/04.png" alt="Banner shape image">
+                    <img class="hero4__shape-2" src="assets/images/hero/05.png" alt="Banner shape image">
+                    <img class="hero4__shape-3" src="assets/images/hero/shape_03.png" alt="Banner shape image">
+                    <img class="hero4__shape-4" src="assets/images/hero/shape_04.png" alt="Banner shape image">
+                    <img class="hero4__shape-5" src="assets/images/hero/shape_05.png" alt="Banner shape image">
+                </div>
+                <div class="container hero4__width">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="hero4__content">
+                                <h1 class="hero4__title">Automate. Organize.<br>Educate Better.</h1>
+                                <p class="hero4__paragraph">Manage students, staff, fees, and results in one platform.
+                                </p>
+
+
+                                <div class="event__video-btn--plays">
+                                    <a href="coureses-single.html" class="hero4-btn">Get Started</a>
+                                    <a href="https://www.youtube.com/watch?v=l_IY77edZv8"
+                                        class="event__videos custom-popup">
+                                        <i class="arrow_triangle-right"></i>
+                                        <em>Watch Demo Video</em>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="col-lg-5 text-right">
-                                <a href="index-three.html#">Go To FAQ <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="hero4__image">
+                                <img class="hero4__image-1" src="assets/images/hero/02.png"
+                                    alt="The girl are pointing to the left side">
+                                <img class="hero4__image-2" src="assets/images/hero/03.png"
+                                    alt="The boy are grabbing some books">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <!--================= Banner Section End  Here =================-->
+
+            <!--=================  Popular Topics Section Start Here ================= -->
+            <div class="react_populars_topics react_populars_topics2 pt---100 pb---100">
+                <div class="container">
+                    <div class="react__title__section react__title__section-all">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h6>School Management System</h6>
+                                <h2 class="react__tittle"> Everything You Need to Manage Your School</h2>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row pt---30">
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="icon">
+                                    <img src="assets/images/topics/icon.svg" alt="Icon image">
+                                </div>
+                                <div class="react-content">
+                                    <h3 class="react-title"><a href="coureses-grid.html">Multi-Tenant Architecture</a>
+                                    </h3>
+                                    <p>Multi-Tenant Architecture</h3>
+                                    <p>Manage multiple schools and branches from a single installation. <br><br>Complete
+                                        data isolation ensures privacy and security. </p>
+                                    <a href="index-three.html#"> Learn More <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="icon">
+                                    <img src="assets/images/topics/icon2.svg" alt="Icon image">
+                                </div>
+                                <div class="react-content">
+                                    <h3 class="react-title"><a href="coureses-grid.html">Role-Based Access Control</a>
+                                    </h3>
+                                    <p>Granular permissions for Admins, Teachers, Accountants, Parents, and Students.
+                                        <br><br> Customize access per module ensures secure access control. <br>
+                                    </p>
+                                    <a href="index-three.html#"> Learn More <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="icon">
+                                    <img src="assets/images/topics/icon3.svg" alt="Icon image">
+                                </div>
+                                <div class="react-content">
+                                    <h3 class="react-title"><a href="coureses-grid.html">Results Management</a></h3>
+                                    <p>Comprehensive grading system with CA scores, exams, <br> auto-calculated
+                                        positions,<br>
+                                        and class analytics (HIC, LIC, averages)<br><br>
+                                        consectetur sed .</p>
+                                    <a href="index-three.html#"> Learn More <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=================  Popular Topics Section End Here ================= -->
+
+            <!--=================  About Section Start Here ================= -->
+            <div class="about__area about2__area about3__area p-relative pb---60 bg-grey-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 md-mb-30">
-                            <div class="footer-widget footer-widget-1">
-                                <div class="footer-logo white">
-                                    <a href="index.html" class="logo-text"> <img src="assets/images/footer-logo2.png" alt="logo"></a>
-                                </div>
-                                <h5 class="footer-subtitle">There are course and event custom <br>
-                                post types so you can easily create and<br> manage course, events.</h5>
-                                <ul class="footer-address">
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><a href="tel:+(402)76244183"> +(402) 762 441 83 </a></li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><a href="mailto:info@yourdmain.com"> info@echooling.com </a></li>
-                                </ul>                               
+                        <div class="col-lg-6">
+                            <div class="about__image">
+                                <img class="react__shape__1" src="assets/images/about/shape_02.png" alt="Shape Image">
+                                <img src="assets/images/about/ab3.png" alt="About">
                             </div>
                         </div>
-                        <div class="col-lg-3 md-mb-30">
-                            <div class="footer-widget footer-widget-2">
-                                <h3 class="footer-title">About Us</h3>
-                                <div class="footer-menu">
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="coureses-grid.html">Courses</a></li>
-                                        <li><a href="index-three.html#">Events</a></li>
-                                        <li><a href="index-three.html#">Career</a></li>
-                                        <li><a href="profile.html">Become a Teacher</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
+                        <div class="col-lg-6">
+                            <div class="about__content">
+                                <h6>About the Platform</h6>
+                                <h2 class="about__title">Open-Source School Management<br>Built for Modern Institutions
+                                </h2>
+                                <p class="about__paragraph">
+                                    From student enrollment to results management, our platform handles every
+                                    aspect of school administration. Multi-tenant architecture supports unlimited
+                                    schools, while role-based permissions keep data secure. Join the movement
+                                    toward accessible, transparent education technology.
+                                </p>
+                                <ul>
+                                    <li><i class="icon_check"></i> Manage unlimited students, staff & branches</li>
+                                    <li><i class="icon_check"></i> AI-powered queries & bulk operations</li>
+                                    <li><i class="icon_check"></i> Complete fee tracking & payment integration</li>
+                                    <li><i class="icon_check"></i> Free forever with full source code access</li>
+                                </ul>
+                                <div class="about__btn">
+                                    <a href="https://github.com/Cyfamod-Technologies/school-fe-nextjs"
+                                        target="_blank">View on GitHub</a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 md-mb-30">
-                            <div class="footer-widget footer-widget-3">
-                                <h3 class="footer-title">Useful Links</h3>
-                                <div class="footer-menu">
-                                    <ul>
-                                        <li><a href="index-three.html#">Browse Library</a></li>
-                                        <li><a href="index-three.html#">Library</a></li>
-                                        <li><a href="index-three.html#">Partners</a></li>
-                                        <li><a href="blog.html">News & Blog</a></li>
-                                        <li><a href="index-three.html#">FAQ</a></li>
-                                        <li><a href="index-three.html#">Tutorials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="footer-widget footer-widget-4">
-                                <h3 class="footer-title">Newsletter</h3> 
-                                <div class="footer3__form">
-                                    <p>Get the latest Echooling news <br>delivered to you inbox</p>
-                                    <form action="index-three.html#">
-                                        <input type="email" placeholder="Enter your email">
-                                        <button class="footer3__form-1">
-                                            <i class="arrow_right"></i>
-                                        </button>
-                                    </form>
-                                </div>                                                           
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="copyright">  
-                <div class="container">                  
-                    <div class="react-copy-left">© <script>
-                                    document.write(
-                                        new Date().getFullYear()
-                                    )
-                                </script> <a href="index-three.html#">Echooling.</a> All Rights Reserved</div>
-                    <div class="react-copy-right">
-                        <ul class="social-links">
-                            <li class="follow">Follow us</li>
-                            <li><a href="index-three.html#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                            <li><a href="index-three.html#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                            <li><a href="index-three.html#"><span aria-hidden="true" class="social_linkedin"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--================= Footer Section End Here =================-->
-        
-        <!--================= Scroll to Top Start =================-->
-        <div id="backscrollUp">
-            <span aria-hidden="true" class="arrow_carrot-up"></span>
-        </div> 
-        <!--================= Scroll to Top End =================-->
+            <!--================= About Section End Here ================= -->
 
-        <!--================= Jquery latest version =================-->
-        <script src="assets/js/jquery.min.js"></script>
-        <!--================= Modernizr js =================-->
-        <script src="assets/js/modernizr-2.8.3.min.js"></script>
-        <!--================= Bootstrap js =================-->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!--================= Owl Carousel js =================-->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <!--================= Magnific Popup =================-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!--================= Counter up js =================-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <!--================= Wow js =================-->
-        <script src="assets/js/wow.min.js"></script>     
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <!--================= Imagesloaded.pkgd.min js =================-->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>            
-        <!--================= menus js =================-->
-        <script src="assets/js/menus.js"></script>
-        <!--================= Plugins js =================-->
-        <script src="assets/js/plugins.js"></script>       
-		<!--================= Main js =================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+            <!--=================  GitHub Star CTA Section Start Here ================= -->
+            <div class="github-star-cta">
+                <div class="container">
+                    <h3>⭐ Star Us on GitHub!</h3>
+                    <p>Support our open-source project and help us build the future of school management</p>
+                    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                        <a href="https://github.com/Cyfamod-Technologies/school-fe-nextjs" target="_blank"
+                            class="github-star-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                            Star Frontend Repo
+                        </a>
+                        <a href="https://github.com/Cyfamod-Technologies/school-be-laravel" target="_blank"
+                            class="github-star-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                            </svg>
+                            Star Backend Repo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--=================  GitHub Star CTA Section End Here ================= -->
+
+            <!--=================  Project Resources Section Start Here ================= -->
+            <div class="react_featured_online pt---100 pb---110 bg-grey-section">
+                <div class="container">
+                    <div class="react__title__section-all">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h6>Quick Access</h6>
+                                <h2 class="react__tittle">Documentation & Community</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt---30 resource-row">
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="react-content">
+                                    <h3><a href="https://github.com/Cyfamod-Technologies/school-fe-nextjs"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                            </svg>
+                                            Frontend Repository</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="react-content">
+                                    <h3><a href="https://github.com/Cyfamod-Technologies/school-be-laravel"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                            </svg>
+                                            Backend Repository</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="react-content">
+                                    <h3><a href="https://github.com/Cyfamod-Technologies/landing-page" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                                            </svg>
+                                            Landing Page</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="react-content">
+                                    <h3><a href="https://docs.google.com/document/d/1Z7dx90437fiJMnMuFjVV0BL9DTuBnmcz/edit"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">
+                                                </path>
+                                                <polyline points="14 2 14 8 20 8"></polyline>
+                                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                                <polyline points="10 9 9 9 8 9"></polyline>
+                                            </svg>
+                                            PRD Document</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="react-content">
+                                    <h3><a href="https://school-be-laravel.vercel.app/api/documentation"
+                                            target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                                <path
+                                                    d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z">
+                                                </path>
+                                            </svg>
+                                            API Documentation</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="react-content">
+                                    <h3><a href="https://discord.gg/b5bVqS3b" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="currentColor">
+                                                <path
+                                                    d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z" />
+                                            </svg>
+                                            Discord Community</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=================  Project Resources Section End Here ================= -->
+
+
+            <!--=================  Pricing Start Here  =================-->
+            <div class="high_quality-section pt---110 pb---120">
+                <div class="container">
+                    <div class="react__title__section-all">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+
+
+                                <div class="qna-section-seven pb---120">
+                                    <div class="container">
+                                        <!-- Consistent Header Styling -->
+                                        <div class="react__title__section-all">
+                                            <div class="row">
+                                                <div class="col-md-12 text-center">
+                                                    <h6>Pricing Models</h6>
+                                                    <h2 class="react__tittle">Choose Your Deployment Model</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pricing-section home-five mt---120 pt---120">
+                                            <div class="pricing-section-header-bg"></div>
+                                            <div class="container">
+                                                <div class="section-title-area home-five text-center">
+
+                                                    <!-- <div class="section-title">Choose Your Deployment Model</div> -->
+                                                </div>
+                                                <div class="row justify-content-center">
+                                                    <div class="col-xl-4 col-md-6">
+                                                        <div class="price-card">
+                                                            <div class="price-plan">
+                                                                <div class="contents">
+                                                                    <div class="plan-type">SELF HOSTED</div>
+                                                                    <div class="price">$0</div>
+                                                                    <div class="validity">/Forever</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="price-details">
+                                                                <div class="item"><span class="course">Full source code
+                                                                        access</span></div>
+                                                                <div class="item"><span class="course">Unlimited
+                                                                        schools</span></div>
+                                                                <div class="item"><span class="course">Unlimited
+                                                                        students</span></div>
+                                                                <div class="item"><span class="course">Community
+                                                                        support</span></div>
+                                                                <div class="item"><span class="course">MIT
+                                                                        License</span></div>
+                                                                <button class="price-btn"><a
+                                                                        href="https://lynxglobal.com.ng/student-login"
+                                                                        target="_blank">REGISTER NOW</a></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-md-6">
+                                                        <div class="price-card">
+                                                            <div class="price-plan">
+                                                                <div class="contents">
+                                                                    <div class="plan-type">CLOUD HOSTED</div>
+                                                                    <div class="price">$149</div>
+                                                                    <div class="validity">/month</div>
+                                                                </div>
+                                                                <div class="popular-plan">Coming Soon</div>
+                                                            </div>
+                                                            <div class="price-details">
+                                                                <div class="item"><span class="course">Everything in
+                                                                        Self-Hosted</span>
+                                                                </div>
+                                                                <div class="item"><span class="course">Managed
+                                                                        infrastructure</span></div>
+                                                                <div class="item"><span class="course">Automatic
+                                                                        backups</span></div>
+                                                                <div class="item"><span class="course">SSL
+                                                                        certificates</span></div>
+                                                                <div class="item"><span class="course">Priority
+                                                                        support</span></div>
+                                                                <button class="price-btn"><a
+                                                                        href="mailto:cyfamodtech@gmail.com">JOIN
+                                                                        WAITLIST</a></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-md-6">
+                                                        <div class="price-card">
+                                                            <div class="price-plan">
+                                                                <div class="contents">
+                                                                    <div class="plan-type">ENTERPRISE</div>
+                                                                    <div class="price">Custom</div>
+                                                                    <div class="validity">Contact Sales</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="price-details">
+                                                                <div class="item"><span class="course">Everything in
+                                                                        Cloud</span></div>
+                                                                <div class="item"><span class="course">Dedicated
+                                                                        support</span></div>
+                                                                <div class="item"><span class="course">Custom
+                                                                        integrations</span></div>
+                                                                <div class="item"><span class="course">SLA
+                                                                        guarantee</span></div>
+                                                                <div class="item"><span class="course">On-site
+                                                                        training</span></div>
+                                                                <button class="price-btn"><a
+                                                                        href="mailto:cyfamodtech@gmail.com">CONTACT
+                                                                        SALES</a></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--=================  Pricing End Here  =================-->
+
+
+
+                                        <!--=================  Video Section Start Here ================= -->
+                                        <div class="high_quality-section pt---110 pb---120">
+                                            <div class="container">
+                                                <div class="react__title__section-all">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center">
+                                                            <h6>See It In Action</h6>
+                                                            <h2 class="react__tittle">Platform Walkthrough Videos</h2>
+                                                            <p
+                                                                style="max-width: 700px; margin: 0 auto; color: #64748b;">
+                                                                Watch how admins, teachers, and students interact with
+                                                                the platform
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="react-tab-gird">
+                                                    <div class="tab-content text-center">
+                                                        <img class="shape__1" src="assets/images/tab/shape_01.png"
+                                                            alt="image">
+                                                        <img class="shape__2" src="assets/images/tab/shape_02.png"
+                                                            alt="image">
+                                                        <img class="shape__3" src="assets/images/tab/shape_03.png"
+                                                            alt="image">
+
+                                                        <!-- ADMIN VIDEO -->
+                                                        <div class="tab-pane active" id="admin-demo">
+                                                            <iframe width="970" height="576"
+                                                                src="https://www.youtube.com/embed/l_IY77edZv8"
+                                                                title="Admin Dashboard Demo" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                allowfullscreen>
+                                                            </iframe>
+                                                        </div>
+
+                                                        <!-- TEACHER VIDEO -->
+                                                        <div class="tab-pane" id="teacher-demo">
+                                                            <iframe width="970" height="576"
+                                                                src="https://www.youtube.com/embed/ZIzbAZWnglU"
+                                                                title="Teacher Dashboard Demo" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                allowfullscreen>
+                                                            </iframe>
+                                                        </div>
+
+                                                        <!-- STUDENT VIDEO -->
+                                                        <div class="tab-pane" id="student-demo">
+                                                            <iframe width="970" height="576"
+                                                                src="https://www.youtube.com/embed/uFxnMX-3YGI"
+                                                                title="Student Dashboard Demo" frameborder="0"
+                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                                allowfullscreen>
+                                                            </iframe>
+                                                        </div>
+                                                    </div>
+
+                                                    <ul class="nav nav-tabs" id="myTab">
+                                                        <li class="nav-item active">
+                                                            <a class="nav-link active" href="#admin-demo"
+                                                                aria-controls="admin-demo" data-bs-toggle="tab">
+                                                                <em class="icon">👨‍💼</em>
+                                                                <em class="text">Admin Dashboard</em>
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#teacher-demo"
+                                                                aria-controls="teacher-demo" data-bs-toggle="tab">
+                                                                <em class="icon">👨‍🏫</em>
+                                                                <em class="text">Teacher Portal</em>
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#student-demo"
+                                                                aria-controls="student-demo" data-bs-toggle="tab">
+                                                                <em class="icon">🎓</em>
+                                                                <em class="text">Student View</em>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--=================  Video Section End Here ================= -->
+
+                                        <!--================= QNA Section Start Here =================-->
+                                        <div class="qna-section-seven pb---120">
+                                            <div class="container">
+                                                <!-- Consistent Header Styling -->
+                                                <div class="react__title__section-all">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center">
+                                                            <h6>Help Center</h6>
+                                                            <h2 class="react__tittle">Frequently Asked Questions</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- FAQ in Two Columns -->
+                                                <div class="row pt---30">
+                                                    <!-- COLUMN 1 -->
+                                                    <div class="col-lg-6">
+                                                        <div class="qna-dropdown">
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">Is this really free?
+                                                                    </div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Yes! 100% open-source under MIT license. No
+                                                                        hidden fees, no feature
+                                                                        restrictions.
+                                                                        Download and use for unlimited schools.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">What are the system
+                                                                        requirements?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Backend: PHP 8.1+, MySQL 5.7+, Laravel 10.
+                                                                        Frontend: Node.js 16+,
+                                                                        Next.js 13+. Minimum
+                                                                        2GB RAM recommended.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">Can I manage multiple
+                                                                        schools?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Absolutely! Multi-tenant architecture supports
+                                                                        unlimited schools with
+                                                                        isolated data per
+                                                                        institution.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">How do I get support?
+                                                                    </div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Join our Discord community for peer support.
+                                                                        GitHub issues for bugs.
+                                                                        Enterprise support
+                                                                        packages available.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">What payment gateways
+                                                                        are supported?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Stripe is integrated. Modular architecture allows
+                                                                        adding Paystack,
+                                                                        Flutterwave, or any
+                                                                        gateway.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- COLUMN 2 -->
+                                                    <div class="col-lg-6">
+                                                        <div class="qna-dropdown">
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">Can I customize the
+                                                                        platform?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Full source code access means unlimited
+                                                                        customization. Fork the
+                                                                        GitHub repo and modify as
+                                                                        needed.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">Is there mobile app
+                                                                        support?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Web interface is mobile-responsive. Native
+                                                                        iOS/Android apps planned
+                                                                        for 2026 roadmap.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">Can I contribute to
+                                                                        development?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Yes! Fork the repo, create feature branches,
+                                                                        submit pull requests.
+                                                                        See CONTRIBUTING.md
+                                                                        for guidelines.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">How do I deploy the
+                                                                        platform?</div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>Clone from GitHub, run composer install & npm
+                                                                        install, configure
+                                                                        .env, migrate database.
+                                                                        Full guide in docs.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="qna-dropdown-item">
+                                                                <div class="question">
+                                                                    <div class="dropdown-icon"></div>
+                                                                    <div class="question-title">Do I need a VPS or can I
+                                                                        use shared hosting?
+                                                                    </div>
+                                                                </div>
+                                                                <div class="answer">
+                                                                    <p>VPS recommended for best performance. Shared
+                                                                        hosting not suitable due
+                                                                        to Laravel
+                                                                        requirements and performance needs.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--================= QNA Section End Here =================-->
+
+
+
+
+
+                                        <!--=================  Satisfaction Section Start Here ================= -->
+                                        <div class="student_satisfaction-section pt---100 pb---120">
+                                            <div class="container">
+                                                <div class="react__title__section-all pb---30">
+                                                    <div class="row">
+                                                        <div class="col-md-12 text-center">
+                                                            <h6>Testimonials</h6>
+                                                            <h2 class="react__tittle"> Feedback</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="feedreact-slider owl-carousel">
+                                                    <div class="event__card">
+                                                        <div class="event__card--content">
+                                                            <div class="event__card--content-area">
+                                                                <div class="testimonial__ratings">
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star_alt"></em>
+                                                                    <span> (14 Reviews) </span>
+                                                                </div>
+                                                                <div class="parag">We are a Portsmouth based web design
+                                                                    and e-marketing
+                                                                    agency. We
+                                                                    understand how important a website is to any
+                                                                    business, big or small.
+                                                                    Your online
+                                                                    presence is now more important than ever before.
+                                                                </div>
+                                                            </div>
+                                                            <img class="poly" src="assets/images/testimonial/poly.png"
+                                                                alt="image">
+                                                        </div>
+                                                        <div class="author-sec">
+                                                            <div class="icon">
+                                                                <img src="assets/images/testimonial/1.png" alt="image">
+                                                            </div>
+                                                            <div class="text">
+                                                                <h4>Pelican Steve</h4>
+                                                                <p>Student</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="event__card">
+                                                        <div class="event__card--content">
+                                                            <div class="event__card--content-area">
+                                                                <div class="testimonial__ratings">
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star_alt"></em>
+                                                                    <span> (18 Reviews) </span>
+                                                                </div>
+                                                                <div class="parag">We are a Portsmouth based web design
+                                                                    and e-marketing
+                                                                    agency. We
+                                                                    understand how important a website is to any
+                                                                    business, big or small.
+                                                                    Your online
+                                                                    presence is now more important than ever before.
+                                                                </div>
+                                                            </div>
+                                                            <img class="poly" src="assets/images/testimonial/poly.png"
+                                                                alt="image">
+                                                        </div>
+                                                        <div class="author-sec">
+                                                            <div class="icon">
+                                                                <img src="assets/images/testimonial/2.png" alt="image">
+                                                            </div>
+                                                            <div class="text">
+                                                                <h4>Chase Kroll</h4>
+                                                                <p>IT Specialist</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="event__card">
+                                                        <div class="event__card--content">
+                                                            <div class="event__card--content-area">
+                                                                <div class="testimonial__ratings">
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star_alt"></em>
+                                                                    <span> (26 Reviews) </span>
+                                                                </div>
+                                                                <div class="parag">We are a Portsmouth based web design
+                                                                    and e-marketing
+                                                                    agency. We
+                                                                    understand how important a website is to any
+                                                                    business, big or small.
+                                                                    Your online
+                                                                    presence is now more important than ever before.
+                                                                </div>
+                                                            </div>
+                                                            <img class="poly" src="assets/images/testimonial/poly.png"
+                                                                alt="image">
+                                                        </div>
+                                                        <div class="author-sec">
+                                                            <div class="icon">
+                                                                <img src="assets/images/testimonial/3.png" alt="image">
+                                                            </div>
+                                                            <div class="text">
+                                                                <h4>Jackson Pot</h4>
+                                                                <p>Teacher</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="event__card">
+                                                        <div class="event__card--content">
+                                                            <div class="event__card--content-area">
+                                                                <div class="testimonial__ratings">
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star"></em>
+                                                                    <em class="icon_star_alt"></em>
+                                                                    <span> (14 Reviews) </span>
+                                                                </div>
+                                                                <div class="parag">We are a Portsmouth based web design
+                                                                    and e-marketing
+                                                                    agency. We
+                                                                    understand how important a website is to any
+                                                                    business, big or small.
+                                                                    Your online
+                                                                    presence is now more important than ever before.
+                                                                </div>
+                                                            </div>
+                                                            <img class="poly" src="assets/images/testimonial/poly.png"
+                                                                alt="image">
+                                                        </div>
+                                                        <div class="author-sec">
+                                                            <div class="icon">
+                                                                <img src="assets/images/testimonial/1.png" alt="image">
+                                                            </div>
+                                                            <div class="text">
+                                                                <h4>Pelican Steve</h4>
+                                                                <p>Student</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="count__area2 pb---100">
+                                                <div class="container">
+                                                    <ul class="row">
+                                                        <!-- METRIC 1: FEATURES -->
+                                                        <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                                            <div class="count__content">
+                                                                <div class="icon">
+                                                                    <img src="assets/images/counter/1.png"
+                                                                        alt="Features">
+                                                                </div>
+                                                                <div class="text">
+                                                                    <span
+                                                                        class="count__content-title counter">50</span><em>+</em>
+                                                                    <p class="count__content">Core Features</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <!-- METRIC 2: MODULES -->
+                                                        <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                                            <div class="count__content">
+                                                                <div class="icon">
+                                                                    <img src="assets/images/counter/2.png"
+                                                                        alt="Modules">
+                                                                </div>
+                                                                <div class="text">
+                                                                    <span
+                                                                        class="count__content-title counter">12</span><em>+</em>
+                                                                    <p class="count__content">Management Modules</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <!-- METRIC 3: USER ROLES -->
+                                                        <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                                            <div class="count__content">
+                                                                <div class="icon">
+                                                                    <img src="assets/images/counter/3.png" alt="Roles">
+                                                                </div>
+                                                                <div class="text">
+                                                                    <span class="count__content-title counter">6</span>
+                                                                    <p class="count__content">User Role Types</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <!-- METRIC 4: GITHUB ACTIVITY -->
+                                                        <li class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-6">
+                                                            <div class="count__content">
+                                                                <div class="icon">
+                                                                    <img src="assets/images/counter/4.png"
+                                                                        alt="Open Source">
+                                                                </div>
+                                                                <div class="text">
+                                                                    <span
+                                                                        class="count__content-title">100</span><em>%</em>
+                                                                    <p class="count__content">Open Source</p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!--=================  Satisfaction Section End Here ================= -->
+                                        </div>
+                                    </div>
+                                    <!--================= Wrapper End Here =================-->
+
+                                    <!--================= Footer Section Start Here =================-->
+                                    <footer id="react-footer" class="react-footer react-footer-two pt---120">
+                                        <div class="footer-top">
+                                            <div class="container">
+                                                <div class="footer-top-cta">
+                                                    <div class="row align-items-center">
+                                                        <div class="col-lg-7">
+                                                            <h4>Open Source. Free Forever.</h4>
+                                                            <h3>Ready to Transform <br> Your School Management?</h3>
+                                                        </div>
+                                                        <div class="col-lg-5 text-right">
+                                                            <a href="https://lynxglobal.com.ng/login" target="_blank">
+                                                                Try it out <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24" viewBox="0 0 24 24"
+                                                                    fill="none" stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-arrow-right">
+                                                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                                                </svg></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-3 md-mb-30">
+                                                        <div class="footer-widget footer-widget-1">
+                                                            <div class="footer-logo white">
+                                                                <a href="index.html" class="logo-text">
+                                                                    <img src="assets/images/footer-logo2.png"
+                                                                        alt="logo">
+                                                                </a>
+                                                            </div>
+                                                            <h5 class="footer-subtitle">Manage students, staff, fees,
+                                                                and results in one
+                                                                platform
+                                                            </h5>
+                                                            <ul class="footer-address">
+                                                                <li>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                                        height="20" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-phone"
+                                                                        style="min-width: 20px; flex-shrink: 0; vertical-align: middle;">
+                                                                        <path
+                                                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                                                        </path>
+                                                                    </svg>
+                                                                    <a href="tel:+2348012345678">+234 801 234 5678</a>
+                                                                </li>
+                                                                <li>
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                                        height="20" viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-mail"
+                                                                        style="min-width: 20px; flex-shrink: 0; vertical-align: middle;">
+                                                                        <path
+                                                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                                        </path>
+                                                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                                                    </svg>
+                                                                    <a
+                                                                        href="mailto:cyfamodtech@gmail.com">cyfamodtech@gmail.com</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 md-mb-30">
+                                                        <div class="footer-widget footer-widget-2">
+                                                            <h3 class="footer-title">About Us</h3>
+                                                            <div class="footer-menu">
+                                                                <ul>
+                                                                    <li><a href="index-three.html#">About</a></li>
+                                                                    <li><a href="index-three.html#">Pricing</a></li>
+
+                                                                    <li><a href="index-three.html#">Blog</a></li>
+                                                                    <li><a href="index-three.html#">FAQ</a></li>
+                                                                    <li><a href="index-three.html#">Contact</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 md-mb-30">
+                                                        <div class="footer-widget footer-widget-3">
+                                                            <h3 class="footer-title">Developers</h3>
+                                                            <div class="footer-menu">
+                                                                <ul>
+                                                                    <li><a href="https://school-be-laravel.vercel.app/api/documentation"
+                                                                            target="_blank">API Swagger Docs</a>
+                                                                    </li>
+                                                                    <li><a href="https://github.com/Cyfamod-Technologies/school-be-laravel"
+                                                                            target="_blank">Backend Repo</a></li>
+                                                                    <li><a href="https://github.com/Cyfamod-Technologies/school-fe-nextjs"
+                                                                            target="_blank">Frontend
+                                                                            Repo</a></li>
+                                                                    <li><a
+                                                                            href="https://discord.com/invite/b5bVqS3b">Discord</a>
+                                                                    </li>
+                                                                    <li><a href="index-three.html#">Docs</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <div class="footer-widget footer-widget-4">
+                                                            <h3 class="footer-title">Newsletter</h3>
+                                                            <div class="footer3__form">
+                                                                <p>Get the latest Cyfamod news <br>delivered to your
+                                                                    inbox</p>
+                                                                <form action="index-three.html#">
+                                                                    <input type="email"
+                                                                        placeholder="cyfamodtech@gmail.com ">
+                                                                    <button class="footer3__form-1">
+                                                                        <i class="arrow_right"></i>
+                                                                    </button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="copyright">
+                                            <div class="container">
+                                                <div class="react-copy-left">©
+                                                    <script>
+                                                        document.write(
+                                                            new Date().getFullYear()
+                                                        )
+                                                    </script> <a href="index-three.html#">Cyfamod School Management
+                                                        System.</a> All Rights
+                                                    Reserved
+                                                </div>
+                                                <div class="react-copy-right">
+                                                    <ul class="social-links">
+                                                        <li class="follow">Follow us</li>
+                                                        <li><a href="index-three.html#"><span aria-hidden="true"
+                                                                    class="social_facebook"></span></a>
+                                                        </li>
+                                                        <li><a href="index-three.html#"><span aria-hidden="true"
+                                                                    class="social_twitter"></span></a>
+                                                        </li>
+                                                        <li><a href="index-three.html#"><span aria-hidden="true"
+                                                                    class="social_linkedin"></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </footer>
+                                    <!--================= Footer Section End Here =================-->
+
+                                    <!--================= Scroll to Top Start =================-->
+                                    <div id="backscrollUp">
+                                        <span aria-hidden="true" class="arrow_carrot-up"></span>
+                                    </div>
+                                    <!--================= Scroll to Top End =================-->
+
+                                    <!--================= Jquery latest version =================-->
+                                    <script src="assets/js/jquery.min.js"></script>
+                                    <!--================= Modernizr js =================-->
+                                    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+                                    <!--================= Bootstrap js =================-->
+                                    <script src="assets/js/bootstrap.min.js"></script>
+                                    <!--================= Owl Carousel js =================-->
+                                    <script src="assets/js/owl.carousel.min.js"></script>
+                                    <!--================= Magnific Popup =================-->
+                                    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+                                    <!--================= Counter up js =================-->
+                                    <script src="assets/js/jquery.counterup.min.js"></script>
+                                    <script src="assets/js/waypoints.min.js"></script>
+                                    <!--================= Wow js =================-->
+                                    <script src="assets/js/wow.min.js"></script>
+                                    <script src="assets/js/isotope.pkgd.min.js"></script>
+                                    <!--================= Imagesloaded.pkgd.min js =================-->
+                                    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+                                    <!--================= menus js =================-->
+                                    <script src="assets/js/menus.js"></script>
+                                    <!--================= Plugins js =================-->
+                                    <script src="assets/js/plugins.js"></script>
+                                    <!--================= Main js =================-->
+                                    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
