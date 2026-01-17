@@ -369,6 +369,151 @@
         .react-header .react-menus li ul.sub-menu li a:hover {
             color: #1A73E8 !important;
         }
+
+        /* CBT Feature Highlight Banner */
+        .cbt-feature-highlight {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 15px;
+        }
+
+        .cbt-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #ff9e00 0%, #ffb133 100%);
+            color: #000 !important;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 158, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .cbt-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cbt-link:hover::before {
+            left: 100%;
+        }
+
+        .cbt-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 158, 0, 0.4);
+            background: linear-gradient(135deg, #ffb133 0%, #ff9e00 100%);
+            color: #1557b0 !important;
+        }
+
+        .cbt-icon {
+            flex-shrink: 0;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .cbt-text {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .cbt-text strong {
+            color: #000;
+            font-weight: 700;
+            background: rgba(0, 0, 0, 0.1);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+        }
+
+        .cbt-arrow {
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+        }
+
+        .cbt-link:hover .cbt-arrow {
+            transform: translateX(4px);
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.6;
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 991px) {
+            .cbt-feature-highlight {
+                padding: 15px 0;
+                border-top: 1px solid rgba(255, 158, 0, 0.2);
+            }
+
+            .cbt-link {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .cbt-link {
+                font-size: 12px;
+                padding: 10px 18px;
+                gap: 8px;
+            }
+
+            .cbt-icon {
+                width: 16px;
+                height: 16px;
+            }
+
+            .cbt-arrow {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        /* CBT Feature Card - Yellow Accent */
+        .cbt-featured-card .icon {
+            position: relative;
+        }
+
+        .cbt-featured-card .new-badge {
+            position: absolute;
+            top: 10px;
+            right: -8px;
+            background: #ff9e00;
+            color: #000;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 8px rgba(255, 158, 0, 0.3);
+        }
+
+        .cbt-featured-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(255, 158, 0, 0.2);
+        }
     </style>
 </head>
 
@@ -454,19 +599,25 @@
                                 </li>
                                 <li> <a href="#">Docs</a></li>
                             </ul>
-                            <div class="searchbar-part">
-                                <form class="search-form">
-                                    <input type="text" class="form-input" placeholder="Search Course">
-                                    <button type="submit" class="form-button">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-search">
-                                            <circle cx="11" cy="11" r="8"></circle>
-                                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                                        </svg>
-                                    </button>
-                                </form>
+                            <div class="cbt-feature-highlight">
+                                <a href="https://bmp.com.ng/cta" target="_blank" class="cbt-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="cbt-icon">
+                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                                    </svg>
+                                    <span class="cbt-text">
+                                        <strong>NEW:</strong> Computer Based Testing (CBT)
+                                    </span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="cbt-arrow">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </nav>
@@ -542,9 +693,74 @@
                                 <div class="react-content">
                                     <h3 class="react-title"><a href="coureses-grid.html">Multi-Tenant Architecture</a>
                                     </h3>
-                                    <p>Multi-Tenant Architecture</h3>
-                                    <p>Manage multiple schools and branches from a single installation. <br><br>Complete
-                                        data isolation ensures privacy and security. </p>
+                                    <p>Scale effortlessly with unlimited schools and branches on one platform. Save
+                                        costs while maintaining complete data isolation and security for each
+                                        institution.</p>
+                                    <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner cbt-featured-card">
+                                <div class="icon">
+                                    <img src="assets/images/topics/icon2.svg" alt="Icon image">
+                                    <span class="new-badge">NEW</span>
+                                </div>
+                                <div class="react-content">
+                                    <h3 class="react-title">
+                                        <a href="https://dash.bmp.com.ng/cta" target="_blank">Computer Based Testing
+                                            (CBT)</a>
+                                    </h3>
+                                    <p>Conduct secure online exams with automated grading and instant results. Create
+                                        question banks, set time limits, and eliminate manual marking forever.</p>
+                                    <a href="https://dash.bmp.com.ng/cta" target="_blank"> Try Demo <svg
+                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="icon">
+                                    <img src="assets/images/topics/icon3.svg" alt="Icon image">
+                                </div>
+                                <div class="react-content">
+                                    <h3 class="react-title"><a href="coureses-grid.html">Role-Based Access Control</a>
+                                    </h3>
+                                    <p>Secure your data with granular permissions for Admins, Teachers, Accountants,
+                                        Parents, and Students. Customize access per module for complete control.</p>
+                                    <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-arrow-right">
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                            <polyline points="12 5 19 12 12 19"></polyline>
+                                        </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt---30">
+                        <div class="col-md-4">
+                            <div class="item__inner">
+                                <div class="icon">
+                                    <img src="assets/images/topics/icon.svg" alt="Icon image">
+                                </div>
+                                <div class="react-content">
+                                    <h3 class="react-title"><a href="coureses-grid.html">Attendance Tracking</a></h3>
+                                    <p>Track student and staff attendance in real-time with automated reports and parent
+                                        notifications. Biometric integration ready for enhanced accuracy.</p>
                                     <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -561,11 +777,9 @@
                                     <img src="assets/images/topics/icon2.svg" alt="Icon image">
                                 </div>
                                 <div class="react-content">
-                                    <h3 class="react-title"><a href="coureses-grid.html">Role-Based Access Control</a>
-                                    </h3>
-                                    <p>Granular permissions for Admins, Teachers, Accountants, Parents, and Students.
-                                        <br><br> Customize access per module ensures secure access control. <br>
-                                    </p>
+                                    <h3 class="react-title"><a href="coureses-grid.html">Fee Management</a></h3>
+                                    <p>Complete fee tracking with payment integration, automated receipts, and
+                                        installment plans. Generate financial reports and reduce payment delays.</p>
                                     <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -583,10 +797,8 @@
                                 </div>
                                 <div class="react-content">
                                     <h3 class="react-title"><a href="coureses-grid.html">Results Management</a></h3>
-                                    <p>Comprehensive grading system with CA scores, exams, <br> auto-calculated
-                                        positions,<br>
-                                        and class analytics (HIC, LIC, averages)<br><br>
-                                        consectetur sed .</p>
+                                    <p>Automated grading with CA scores, exams, and class analytics. Secure result pins,
+                                        printable report cards, and instant parent access to student performance.</p>
                                     <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                             height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
